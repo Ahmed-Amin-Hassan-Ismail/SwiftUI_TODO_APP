@@ -21,7 +21,7 @@ struct ListView: View {
                             listViewModel.updateItem(item: item)
                         }
                     }
-            } 
+            }
             .onDelete(perform: listViewModel.removeItem(at:))
             .onMove(perform: listViewModel.moveItem(from:to:))
         }
