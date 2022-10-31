@@ -19,6 +19,7 @@ struct ListRowView: View {
                 
             Text(item.title)
                 .strikethrough(item.isCompleted)
+            
             Spacer()
         }
         .font(.title)
